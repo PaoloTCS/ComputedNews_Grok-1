@@ -1,0 +1,10 @@
+[build]
+    command = "pip install -r requirements.txt && streamlit run ui/test_app.py"
+    publish = "."
+  [build.environment]
+    STREAMLIT_SERVER_PORT = "8501"
+    STREAMLIT_SERVER_HEADLESS = "true"
+  [[redirects]]
+    from = "/*"
+    to = "/index.html"
+    status = 200
