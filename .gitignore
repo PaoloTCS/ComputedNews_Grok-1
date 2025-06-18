@@ -1,0 +1,15 @@
+   __pycache__/
+   *.pyc
+   *.pyo
+   *.pyd
+   .Python
+   env/
+   venv/
+   .env
+
+   # OS generated files
+   .DS_Store
+   Thumbs.db
+
+   # Netlify build artifacts (if any)
+   .netlify/
